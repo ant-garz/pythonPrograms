@@ -3,8 +3,7 @@
 #Purpose : to demonstrate the principles of object oriented
 #           programming by using two programs testing car
 #           acceleration braking. This program is the testing program
-#           for this process. This is one of two programs to satisfy
-#           the requirements for lab 4.
+#           for this process. 
 
 import ag_CarDefinition
 

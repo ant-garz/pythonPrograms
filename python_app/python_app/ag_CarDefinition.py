@@ -3,8 +3,7 @@
 #Purpose: To demonstrate the principles of object oriented programming
 #         by using the two programs testing car acceleration and braking. This
 #         program is the one that defines the class "Car" and is used in the
-#         test program. This is one of two programs to satisfy the requirements
-#         for lab 4.
+#         test program.
 
 class Car:
     def __init__(self, year_model, make):
