@@ -1,5 +1,4 @@
-##Author:Maya Tolappa
-##Purpose: Program for Test 3.
+#Sales Tax program
 
 def main():
     sales_amount = getSalesAmount()
@@ -23,6 +22,3 @@ def getTotalAmount(sales_amount, tax_rate):
     return total_amount
     
 main()
-
-#I am not sure whether or not I should edit the author and purpose in accordance with the programming standards, as it is the code you wrote for this test
-# the script name, however, is now : ag_test3_hands_on.py

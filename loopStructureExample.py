@@ -1,6 +1,3 @@
-#
-#  Code 3 lines of comments with your name amd purpose
-#  of the program
 # The purpose of this program is to satisfy the test requirements
 # This is to show that I understand decision and loop structures
 # My name is Anthony Garza
@@ -21,7 +18,3 @@ while num_of_classes >= min_class and num_of_classes <= max_class:
     break
 
 print('--- end of program --')
-
-
-
-
