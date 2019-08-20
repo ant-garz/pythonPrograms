@@ -1,4 +1,3 @@
-#Script Name: ag_assignment5.py
 #Author: Anthony Garza
 #Purpose: The purpose of this program is to make a GUI program using tkinter.
 #       This program calculates the miles per gallon a vehicle has based off
@@ -82,7 +81,7 @@ class Miles_Per_Gallon:
         
 #define main fucntion
 def main():
-        mpg = Miles_Per_Gallon()
+    Miles_Per_Gallon()
 
 #invoke main function
 main()

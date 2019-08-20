@@ -1,13 +1,8 @@
-# Script Name: ag_ec2_completed.py
 # Author: Anthony Garza
 # Purpose: The purpose of this program is to display information regarding
 #          myself and my school semester, while properly utilizing
 #          the heirarchy chart given to us as the standard regarding
 #          nested functions.
-
-
-
-
 
 #------------ function definition for main --------
 def main():
@@ -29,13 +24,12 @@ def displayCourses():
 
 #------------ function definition for displayEnd --------
 def displayEnd():
-    grad = print("\nI will graduate from Waubonsee in 2016!")
+    print("\nI graduated from Waubonsee in 2016!")
+    print("\nI will graduate from Lewis Univesity in 2020!")
     def displayHours():
       print('\nI am taking 14 credit hours this semester!')
     displayHours()
       
-        
-    
 #--------------- invoke main function  ----
 main()
 

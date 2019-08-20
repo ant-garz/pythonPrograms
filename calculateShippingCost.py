@@ -1,5 +1,4 @@
-# Script Name : ag_lab2_completed.py
-# Author : Anthony Garza (CIS115: Introduction to Programming)
+# Author : Anthony Garza
 #Purpose : To take the weight, in lbs, of an item given as input
 #          from the program user to calculate it's shipping cost.
 #          The price of the shipping cost depends on the weight of the
@@ -7,18 +6,18 @@
 #          it's weight in lbs. by a certain $ amount depending on the
 #          weight of said item.
 
-# Local variables
+#variables
 weight = 0.0
 shippingCost = 0.0
 
-# Get package weight from the user.
+#Get package weight from the user.
 weight = float(input('Enter the weight of the package: '))
 
 
 #format the weight to 2 decimal places
 weight_fmt = format(weight, '.2f')
 
-# Calculate the shipping charge.
+# Calculate the shipping charge (more variables)
 lessthan2 = weight * 1.50
 over2notmorethan6 = weight * 3.00
 over6notmorethan10 = weight * 4.00
@@ -31,6 +30,7 @@ over6notmorethan10_fmt = format(over6notmorethan10, '.2f')
 over10_fmt = format(over10, '.2f')
 
 # Display the shipping charge.
+#if elif else loop structure to determine how much shipping will cost based on weight.
 if weight < 2:
     print('weight = ', weight_fmt, 'lbs.')
     print('Shipping Charge: $', lessthan2_fmt)
